@@ -1,0 +1,1114 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: PepperfryTest1.spec.ts >> test
+- Location: tests\PepperfryTest1.spec.ts:3:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+```
+Error: page.goto: Test timeout of 30000ms exceeded.
+Call log:
+  - navigating to "https://www.pepperfry.com/", waiting until "load"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - strong [ref=e10]: Extra 15% Off on All Home and Kitchen Orders*
+      - generic [ref=e13]:
+        - navigation [ref=e14]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "PEPPERFRY FOR BUSINESS" [ref=e17] [cursor=pointer]:
+                - /url: /forbusiness.html?partner=seller&type=header
+            - listitem [ref=e18]:
+              - link "Sell on pepperfry" [ref=e19] [cursor=pointer]:
+                - /url: /form/partners-partnerwithus.html?partner=seller&type=header
+            - listitem [ref=e20]:
+              - link "Become a franchisee" [ref=e21] [cursor=pointer]:
+                - /url: /form/partners-franchisee.html?type=header
+            - listitem [ref=e22]:
+              - link "GIFT CARDS" [ref=e23] [cursor=pointer]:
+                - /url: /form/pepperfry-gift-cards.html?type=header
+            - listitem [ref=e24]:
+              - link "Track Your Order" [ref=e25] [cursor=pointer]:
+                - /url: https://www.pepperfry.com/customer/myorders
+            - listitem [ref=e26]:
+              - link "Contact us" [ref=e27] [cursor=pointer]:
+                - /url: https://www.pepperfry.com/customer/needhelp/contactus
+        - generic [ref=e29]:
+          - generic [ref=e32]:
+            - generic:
+              - generic: Search for
+              - generic: Beds
+            - textbox [ref=e33]
+            - button "search-icon" [ref=e34]:
+              - img "search-icon" [ref=e35]
+          - link "PepperfryLogo" [ref=e37] [cursor=pointer]:
+            - /url: /
+            - img "PepperfryLogo" [ref=e38]
+          - generic [ref=e41]:
+            - generic [ref=e43]:
+              - generic [ref=e44] [cursor=pointer]:
+                - generic [ref=e45]: Sign Up Now
+                - generic [ref=e46]: Get Upto Rs. 1,500 off
+              - link "profile icon" [ref=e47] [cursor=pointer]:
+                - img "profile icon" [ref=e48]
+            - generic [ref=e49]:
+              - link "Find a Store" [ref=e50] [cursor=pointer]:
+                - /url: /stores/locator.html?type=header
+                - generic [ref=e51]: Find a
+                - generic [ref=e52]: Store
+              - link "studio icon" [ref=e53] [cursor=pointer]:
+                - /url: /stores/locator.html?type=header
+                - img "studio icon" [ref=e54]
+            - link "wishlist icon" [ref=e56] [cursor=pointer]:
+              - /url: https://www.pepperfry.com/customer/login
+              - img "wishlist icon" [ref=e57]
+            - link "cart icon" [ref=e59] [cursor=pointer]:
+              - /url: https://www.pepperfry.com/checkout/cart
+              - img "cart icon" [ref=e60]
+        - list [ref=e66]:
+          - listitem [ref=e67] [cursor=pointer]:
+            - link "Furniture" [ref=e68]:
+              - /url: /category/furniture.html?type=hover-furniture
+          - listitem [ref=e69] [cursor=pointer]:
+            - link "Sofas & Seating" [ref=e70]:
+              - /url: /category/sofas-and-seating.html?type=hover-sofasseating
+          - listitem [ref=e71] [cursor=pointer]:
+            - link "Mattresses" [ref=e72]:
+              - /url: /category/mattresses.html?type=hover-mattresses
+          - listitem [ref=e73] [cursor=pointer]:
+            - link "Home Decor" [ref=e74]:
+              - /url: /category/home-decor.html?type=hover-homedecor
+          - listitem [ref=e75] [cursor=pointer]:
+            - link "Furnishings" [ref=e76]:
+              - /url: /category/furnishings.html?type=hover-furnishings
+          - listitem [ref=e77] [cursor=pointer]:
+            - link "Lamps & Lighting" [ref=e78]:
+              - /url: /category/lamps-and-lighting.html?type=hover-lampslighting
+          - listitem [ref=e79] [cursor=pointer]:
+            - link "Kitchen & Dining" [ref=e80]:
+              - /url: /category/kitchen-and-dining.html?type=hover-kitchendining
+          - listitem [ref=e81] [cursor=pointer]:
+            - link "Luxury" [ref=e82]:
+              - /url: /category/luxury-brand.html?type=hover-luxury
+          - listitem [ref=e83] [cursor=pointer]:
+            - link "Modular" [ref=e84]:
+              - /url: /form/modular-furniture.html?type=hover-modular
+    - main [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e91]:
+            - link [ref=e94] [cursor=pointer]:
+              - /url: /category/furniture.html?type=homepage_hero_banner_LHS
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - link "image alt image":
+                  - /url: /category/spiritual.html?cat_id=1036&requestPlatform=web&sort_field=updated_at&sort_by=desc&type=hover-homedecor-spiritual&sort_name=Newest&page=1
+                  - img "image alt image" [ref=e101] [cursor=pointer]
+              - generic [ref=e102]:
+                - link:
+                  - /url: /category/3-seater-sofas.html?cat_id=320&requestPlatform=web&sort_field=sorting_score&sort_by=desc&type=hover-furniture-sofas-3seatersofas&page=1&brandsname=Casacraft%20from%20Pepperfry,Woodsworth%20from%20Pepperfry,Amberville%20from%20Pepperfry,Mintwud%20from%20Pepperfry,Mudramark%20from%20Pepperfry,Ek%20Design%20From%20Pepperfry
+              - generic [ref=e103]:
+                - link:
+                  - /url: /stores/search?type=header&value=400004
+              - generic [ref=e104]:
+                - link:
+                  - /url: /category/smart-lights.html?cat_id=4677&requestPlatform=web&sort_field=updated_at&sort_by=desc&type=hover-lampslighting-smartlights&sort_name=Newest&page=1
+              - generic [ref=e105]:
+                - link:
+                  - /url: /discover/Back-Pain-Relief.html?cat_id=2092&requestPlatform=web&sort_field=product_rating&sort_by=desc&sort_name=Customer%20Ratings&page=1
+          - link [ref=e116] [cursor=pointer]
+          - generic [ref=e123]:
+            - link [ref=e129] [cursor=pointer]:
+              - /url: /brands/royal-oak.html
+            - link [ref=e137] [cursor=pointer]:
+              - /url: /brands/nilkamal.html
+            - link [ref=e145] [cursor=pointer]:
+              - /url: /brands/spacewood.html?requestPlatform=web&sort_field=updated_at&sort_by=desc&type=hp-footer-link-brands-11&brandsname=Spacewood&sort_name=Newest&page=1
+          - generic [ref=e151]:
+            - heading "Visit Our Store" [level=2] [ref=e154]
+            - link "image alt image" [ref=e155]:
+              - link "image alt image" [ref=e156] [cursor=pointer]:
+                - /url: /stores/locator.html
+                - img "image alt image" [ref=e159]
+          - generic [ref=e162]:
+            - heading "Shop All Things Home" [level=2] [ref=e165]
+            - generic [ref=e170]:
+              - button "Living Room" [ref=e173] [cursor=pointer]:
+                - generic [ref=e174]: Living Room
+              - button "Bed Room" [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]: Bed Room
+              - button "Dining Room" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]: Dining Room
+              - button "Study Room" [ref=e185] [cursor=pointer]:
+                - generic [ref=e186]: Study Room
+              - button "Solid Wood" [ref=e189] [cursor=pointer]:
+                - generic [ref=e190]: Solid Wood
+              - button "Engineered Wood" [ref=e193] [cursor=pointer]:
+                - generic [ref=e194]: Engineered Wood
+              - button "Luxury Furniture" [ref=e197] [cursor=pointer]:
+                - generic [ref=e198]: Luxury Furniture
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: /category/sofas.html?type=homepage_shop_by_category_tab1_block1
+                - link [ref=e204] [cursor=pointer]:
+                  - /url: /category/centre-tables.html?type=homepage_shop_by_category_tab1_block2
+                - link [ref=e206] [cursor=pointer]:
+                  - /url: /category/sofa-chairs.html?type=homepage_shop_by_category_tab1_block3
+                - link [ref=e208] [cursor=pointer]:
+                  - /url: /category/cabinets-and-sideboards.html?type=homepage_shop_by_category_tab1_block4
+                - link [ref=e210] [cursor=pointer]:
+                  - /url: /category/home-decor-wall-art-and-paintings.html?cat_id=7088&requestPlatform=web&sort_field=sorting_score&sort_by=desc&sort_name=Relevance&page=1&type=homepage_shop_by_category_tab1_block5
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /category/hanging-lights.html?cat_id=1011&requestPlatform=web&sort_field=sorting_score&sort_by=desc&sort_name=Relevance&page=1&type=homepage_shop_by_category_tab1_block6
+              - generic [ref=e213]:
+                - link [ref=e215] [cursor=pointer]:
+                  - /url: /category/mandirs.html?cat_id=5821&requestPlatform=web&sort_field=sorting_score&sort_by=desc&sort_name=Relevance&page=1&type=homepage_shop_by_category_tab1_block7
+                - link [ref=e217] [cursor=pointer]:
+                  - /url: /category/chairs.html?type=homepage_shop_by_category_tab1_block8
+                - link [ref=e219] [cursor=pointer]:
+                  - /url: /category/recliners.html?type=homepage_shop_by_category_tab1_block9
+                - link [ref=e221] [cursor=pointer]:
+                  - /url: /category/tv-and-media-units.html?type=homepage_shop_by_category_tab1_block10
+                - link [ref=e223] [cursor=pointer]:
+                  - /url: /category/carpets.html?cat_id=6528&requestPlatform=web&sort_field=sorting_score&sort_by=desc&sort_name=Relevance&page=1&type=homepage_shop_by_category_tab1_block11
+                - link [ref=e225] [cursor=pointer]:
+                  - /url: /category/curtains.html?cat_id=2966&requestPlatform=web&sort_field=sorting_score&sort_by=desc&sort_name=Relevance&page=1&type=homepage_shop_by_category_tab1_block12
+          - generic [ref=e228]:
+            - heading "Brand Bazaar" [level=2] [ref=e230]
+            - generic [ref=e232]:
+              - list [ref=e234]:
+                - listitem [ref=e235] [cursor=pointer]:
+                  - generic [ref=e237]: Furniture
+                - listitem [ref=e238] [cursor=pointer]:
+                  - generic [ref=e240]: Mattresses
+                - listitem [ref=e241] [cursor=pointer]:
+                  - generic [ref=e243]: Home Decor
+              - generic [ref=e248]:
+                - link [ref=e254] [cursor=pointer]:
+                  - /url: /brands/hometown.html?cat_id=3&requestPlatform=web&sort_field=sorting_score&sort_by=desc&brandsname=HomeTown&sort_name=Relevance&page=1
+                - link [ref=e262] [cursor=pointer]:
+                  - /url: /brands/nestroots.html?requestPlatform=web&sort_field=updated_at&sort_by=desc&brandsname=NestRoots&sort_name=Newest&page=1
+                - link [ref=e270] [cursor=pointer]:
+                  - /url: /brands/madesa.html?type=homepage_explore_popular_brands_tab2_block3
+                - link [ref=e278] [cursor=pointer]:
+                  - /url: /brands/febonic.html
+                - link [ref=e286] [cursor=pointer]:
+                  - /url: /brands/outkraft.html?cat_id=3&requestPlatform=web&sort_field=price&sort_by=asc&brandsname=Outkraft&sort_name=Lowest%20Priced%20First&page=1
+                - link [ref=e294] [cursor=pointer]:
+                  - /url: /brands/woodbuzz.html?cat_id=3&requestPlatform=web&sort_field=price&sort_by=asc&brandsname=Woodbuzz&sort_name=Lowest%20Priced%20First&page=1
+          - link [ref=e301]:
+            - link [ref=e302] [cursor=pointer]:
+              - /url: /discover/Curated-Catalogue.html
+          - generic [ref=e307]:
+            - heading "What The Fry Deals" [level=2] [ref=e309]
+            - generic [ref=e313]:
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - link "(Pack of 3) Lavender Dream Gel Wink Hanging Car Perfume" [ref=e318] [cursor=pointer]:
+                    - /url: /product/pack-of-3-lavender-dream-gel-wink-hanging-car-perfume-2243860.html
+                    - img "(Pack of 3) Lavender Dream Gel Wink Hanging Car Perfume" [ref=e321]
+                  - generic:
+                    - img "Wishlist icon"
+                - generic [ref=e322]:
+                  - heading "(Pack of 3) Lavender Dream Gel Wink Hanging Car Perfume" [level=3] [ref=e323]:
+                    - link "(Pack of 3) Lavender Dream Gel Wink Hanging Car Perfume" [ref=e324] [cursor=pointer]:
+                      - /url: /product/pack-of-3-lavender-dream-gel-wink-hanging-car-perfume-2243860.html
+                  - generic [ref=e325]: ₹159₹59773%
+              - generic [ref=e328]:
+                - generic [ref=e329]:
+                  - link "Assorted Button Travel Neck Pillow" [ref=e330] [cursor=pointer]:
+                    - /url: /product/teal-button-travel-neck-pillow-2300197.html
+                    - img "Assorted Button Travel Neck Pillow" [ref=e333]
+                  - generic:
+                    - img "Wishlist icon"
+                - generic [ref=e334]:
+                  - heading "Assorted Button Travel Neck Pillow" [level=3] [ref=e335]:
+                    - link "Assorted Button Travel Neck Pillow" [ref=e336] [cursor=pointer]:
+                      - /url: /product/teal-button-travel-neck-pillow-2300197.html
+                  - generic [ref=e337]: ₹179₹49964%
+              - generic [ref=e340]:
+                - generic [ref=e341]:
+                  - link "Eco 900Ml Single Wall Water Bottle" [ref=e342] [cursor=pointer]:
+                    - /url: /product/eco-900ml-single-wall-water-bottle-2104962.html
+                    - img "Eco 900Ml Single Wall Water Bottle" [ref=e345]
+                  - generic:
+                    - img "Wishlist icon"
+                - generic [ref=e346]:
+                  - heading "Eco 900Ml Single Wall Water Bottle" [level=3] [ref=e347]:
+                    - link "Eco 900Ml Single Wall Water Bottle" [ref=e348] [cursor=pointer]:
+                      - /url: /product/eco-900ml-single-wall-water-bottle-2104962.html
+                  - generic [ref=e349]: ₹1₹499100%
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - link "Waterproof (Set of 2) LED Solar Outdoor Step/fence Light (Brown)" [ref=e354] [cursor=pointer]:
+                    - /url: /product/waterproof-set-of-2-led-solar-outdoor-step-fence-light-brown-2189164.html
+                    - img "Waterproof (Set of 2) LED Solar Outdoor Step/fence Light (Brown)" [ref=e357]
+                  - generic:
+                    - img "Wishlist icon"
+                - generic [ref=e358]:
+                  - heading "Waterproof (Set of 2) LED Solar Outdoor Step/fence Light (Brown)" [level=3] [ref=e359]:
+                    - link "Waterproof (Set of 2) LED Solar Outdoor Step/fence Light (Brown)" [ref=e360] [cursor=pointer]:
+                      - /url: /product/waterproof-set-of-2-led-solar-outdoor-step-fence-light-brown-2189164.html
+                  - generic [ref=e361]: ₹1₹399100%
+              - generic [ref=e364]:
+                - generic [ref=e365]:
+                  - link "1 Lakh Money Savings Target Wooden Piggy Bank" [ref=e366] [cursor=pointer]:
+                    - /url: /product/wooden-money-1-lakh-savings-target-box-cum-piggy-bank-2236512.html
+                    - img "1 Lakh Money Savings Target Wooden Piggy Bank" [ref=e369]
+                  - generic:
+                    - img "Wishlist icon"
+                - generic [ref=e370]:
+                  - heading "1 Lakh Money Savings Target Wooden Piggy Bank" [level=3] [ref=e371]:
+                    - link "1 Lakh Money Savings Target Wooden Piggy Bank" [ref=e372] [cursor=pointer]:
+                      - /url: /product/wooden-money-1-lakh-savings-target-box-cum-piggy-bank-2236512.html
+                  - generic [ref=e373]: ₹229₹1,19981%
+              - generic [ref=e374] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img "Home Goods"
+                - heading "Explore More Deals" [level=3] [ref=e375]
+                - generic [ref=e376]: Shop Now ->
+          - link "image alt image" [ref=e381]:
+            - link "image alt image" [ref=e382] [cursor=pointer]:
+              - /url: /pages/brand-bazaar.html
+              - img "image alt image" [ref=e385]
+          - generic [ref=e388]:
+            - heading "Our Favourite Categories" [level=2] [ref=e391]
+            - generic [ref=e396]:
+              - button "Furniture" [ref=e399] [cursor=pointer]:
+                - generic [ref=e400]: Furniture
+              - button "Mattresses" [ref=e403] [cursor=pointer]:
+                - generic [ref=e404]: Mattresses
+              - button "Home Goods" [ref=e407] [cursor=pointer]:
+                - generic [ref=e408]: Home Goods
+            - generic [ref=e410]:
+              - link [ref=e416] [cursor=pointer]:
+                - /url: /category/beds.html?cat_id=21&requestPlatform=web&sort_field=price&sort_by=asc&type=homepage_smart_shopping_for_your_space_tab1_block6&page=1&furniture_storage=Hydraulic%20Storage&sort_name=Lowest%20Priced%20First
+              - link [ref=e424] [cursor=pointer]:
+                - /url: /category/bean-bags-with-beans.html?cat_id=1084&requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&sort_name=Fastest%20Shipping&page=1
+              - link [ref=e432] [cursor=pointer]:
+                - /url: /category/swings.html?cat_id=2697&requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&sort_name=Fastest%20Shipping&page=1&type=homepage_smart_shopping_for_your_space_tab1_block3
+              - link [ref=e440] [cursor=pointer]:
+                - /url: /category/chairs.html?cat_id=25&requestPlatform=web&sort_field=updated_at&sort_by=desc&type=homepage_smart_shopping_for_your_space_tab1_block4&sort_name=Newest&page=1
+              - link [ref=e448] [cursor=pointer]:
+                - /url: /category/centre-tables.html?cat_id=6746&requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&type=homepage_smart_shopping_for_your_space_tab1_block5&sort_name=Fastest%20Shipping&page=1
+              - link [ref=e456] [cursor=pointer]:
+                - /url: /category/sectional-sofas.html?cat_id=1946&requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&type=homepage_smart_shopping_for_your_space_tab1_block1&sort_name=Fastest%20Shipping&page=1
+              - link [ref=e464] [cursor=pointer]:
+                - /url: /category/shoe-cabinets.html?cat_id=5491&requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&sort_name=Fastest%20Shipping&page=1&type=homepage_smart_shopping_for_your_space_tab1_block7
+              - link [ref=e472] [cursor=pointer]:
+                - /url: /category/bar-cabinets.html?cat_id=1850&requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&sort_name=Fastest%20Shipping&page=1
+          - generic [ref=e477]:
+            - link "Studio-Banner" [ref=e479] [cursor=pointer]:
+              - /url: https://www.pepperfry.com/stores/locator.html?type=homepage-visibility
+              - img "Studio-Banner" [ref=e482]
+            - generic [ref=e493]:
+              - link "Studio-city Bengaluru 8 Stores" [ref=e502] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-bengaluru.html?type=homepage-visibility
+                - img "Studio-city" [ref=e505]
+                - generic [ref=e507]: Bengaluru
+                - generic [ref=e508]: 8 Stores
+              - link "Studio-city Agra 1 Stores" [ref=e517] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-agra.html?type=homepage-visibility
+                - img "Studio-city" [ref=e520]
+                - generic [ref=e522]: Agra
+                - generic [ref=e523]: 1 Stores
+              - link "Studio-city Shimla 1 Stores" [ref=e532] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-shimla.html?type=homepage-visibility
+                - img "Studio-city" [ref=e535]
+                - generic [ref=e537]: Shimla
+                - generic [ref=e538]: 1 Stores
+              - link "Studio-city Mumbai 6 Stores" [ref=e547] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-mumbai.html?type=homepage-visibility
+                - img "Studio-city" [ref=e550]
+                - generic [ref=e552]: Mumbai
+                - generic [ref=e553]: 6 Stores
+              - link "Studio-city New Delhi 2 Stores" [ref=e562] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-delhi-ncr.html?type=homepage-visibility
+                - img "Studio-city" [ref=e565]
+                - generic [ref=e567]: New Delhi
+                - generic [ref=e568]: 2 Stores
+              - link "Studio-city Pune 6 Stores" [ref=e577] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-pune.html?type=homepage-visibility
+                - img "Studio-city" [ref=e580]
+                - generic [ref=e582]: Pune
+                - generic [ref=e583]: 6 Stores
+              - link "Studio-city Hyderabad 5 Stores" [ref=e592] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-hyderabad.html?type=homepage-visibility
+                - img "Studio-city" [ref=e595]
+                - generic [ref=e597]: Hyderabad
+                - generic [ref=e598]: 5 Stores
+              - link "Studio-city Chennai 5 Stores" [ref=e607] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-chennai.html?type=homepage-visibility
+                - img "Studio-city" [ref=e610]
+                - generic [ref=e612]: Chennai
+                - generic [ref=e613]: 5 Stores
+              - link "Studio-city Kolkata 6 Stores" [ref=e622] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-kolkata.html?type=homepage-visibility
+                - img "Studio-city" [ref=e625]
+                - generic [ref=e627]: Kolkata
+                - generic [ref=e628]: 6 Stores
+              - link "Studio-city Navi Mumbai 2 Stores" [ref=e637] [cursor=pointer]:
+                - /url: stores/city/furniture-store-in-navi-mumbai.html?type=homepage-visibility
+                - img "Studio-city" [ref=e640]
+                - generic [ref=e642]: Navi Mumbai
+                - generic [ref=e643]: 2 Stores
+              - link "Studio-city Explore More Stores Near You" [ref=e652] [cursor=pointer]:
+                - /url: https://www.pepperfry.com/stores/locator.html?type=homepage-visibility
+                - img "Studio-city" [ref=e655]
+                - generic [ref=e657]: Explore More
+                - generic [ref=e658]: Stores Near You
+          - link [ref=e665]:
+            - link [ref=e666] [cursor=pointer]:
+              - /url: /brands/casacraft.html
+          - generic [ref=e673]:
+            - link [ref=e678] [cursor=pointer]:
+              - /url: https://www.pepperfry.com/form/modular-furniture.html?type=hover-modular
+            - link [ref=e685] [cursor=pointer]:
+              - /url: https://www.pepperfry.com/category/drinkware.html?cat_id=269&requestPlatform=web&sort_field=sorting_score&sort_by=desc&type=hover-kitchendining-drinkware&sort_name=Relevance&page=1
+          - generic [ref=e690]:
+            - heading "Fresh Finds At Pepperfry" [level=2] [ref=e693]
+            - generic [ref=e695]:
+              - link "Space saving Starting at Rs.3499->" [ref=e701] [cursor=pointer]:
+                - /url: /discover/space-saving-furniture.html?requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&sort_name=Fastest%20Shipping&page=1&type=homepage_newarrivals_block1
+                - heading "Space saving" [level=3] [ref=e704]:
+                  - link "Space saving" [ref=e705]:
+                    - /url: /discover/space-saving-furniture.html?requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&sort_name=Fastest%20Shipping&page=1&type=homepage_newarrivals_block1
+                - link "Starting at Rs.3499->" [ref=e707]:
+                  - /url: /discover/space-saving-furniture.html?requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&sort_name=Fastest%20Shipping&page=1&type=homepage_newarrivals_block1
+              - link "Designed for better health Starting at Rs.3399->" [ref=e713] [cursor=pointer]:
+                - /url: /category/ergonomic-chairs.html?cat_id=1290&requestPlatform=web&sort_field=sorting_score&sort_by=desc&brdc=1&from=vip&id=2268400&sort_name=Relevance&page=1
+                - heading "Designed for better health" [level=3] [ref=e716]:
+                  - link "Designed for better health" [ref=e717]:
+                    - /url: /category/ergonomic-chairs.html?cat_id=1290&requestPlatform=web&sort_field=sorting_score&sort_by=desc&brdc=1&from=vip&id=2268400&sort_name=Relevance&page=1
+                - link "Starting at Rs.3399->" [ref=e719]:
+                  - /url: /category/ergonomic-chairs.html?cat_id=1290&requestPlatform=web&sort_field=sorting_score&sort_by=desc&brdc=1&from=vip&id=2268400&sort_name=Relevance&page=1
+              - link "Ek Design From Pepperfry Starting at Rs.11,900->" [ref=e725] [cursor=pointer]:
+                - /url: /brands/ek-design-from-pepperfry.html?requestPlatform=web&sort_field=product_rating&sort_by=desc&brandsname=Ek%20Design%20From%20Pepperfry&sort_name=Customer%20Ratings&page=1
+                - heading "Ek Design From Pepperfry" [level=3] [ref=e728]:
+                  - link "Ek Design From Pepperfry" [ref=e729]:
+                    - /url: /brands/ek-design-from-pepperfry.html?requestPlatform=web&sort_field=product_rating&sort_by=desc&brandsname=Ek%20Design%20From%20Pepperfry&sort_name=Customer%20Ratings&page=1
+                - link "Starting at Rs.11,900->" [ref=e731]:
+                  - /url: /brands/ek-design-from-pepperfry.html?requestPlatform=web&sort_field=product_rating&sort_by=desc&brandsname=Ek%20Design%20From%20Pepperfry&sort_name=Customer%20Ratings&page=1
+              - link "Timeless Brass Collection Starting at 149->" [ref=e737] [cursor=pointer]:
+                - /url: /discover/brass-collection-home-decor.html?type=homepage_newarrivals_block4
+                - heading "Timeless Brass Collection" [level=3] [ref=e740]:
+                  - link "Timeless Brass Collection" [ref=e741]:
+                    - /url: /discover/brass-collection-home-decor.html?type=homepage_newarrivals_block4
+                - link "Starting at 149->" [ref=e743]:
+                  - /url: /discover/brass-collection-home-decor.html?type=homepage_newarrivals_block4
+          - generic [ref=e746]:
+            - heading "Sleep Essentials Collection" [level=2] [ref=e749]
+            - generic [ref=e751]:
+              - link [ref=e756]:
+                - link [ref=e757] [cursor=pointer]:
+                  - /url: https://www.pepperfry.com/discover/Mattress-Firmness.html?cat_id=151&requestPlatform=web&sort_field=product_rating&sort_by=desc&sort_name=Customer%2520Ratings&page=1
+              - link [ref=e764]:
+                - link [ref=e765] [cursor=pointer]:
+                  - /url: https://www.pepperfry.com/discover/Cooling-Technology.html?cat_id=151&requestPlatform=web&sort_field=time_to_warehouse&sort_by=asc&sort_name=Fastest%2520Shipping&page=1
+          - generic [ref=e770]:
+            - heading "Need Help Buying?" [level=2] [ref=e773]
+            - generic [ref=e774]:
+              - link [ref=e779] [cursor=pointer]:
+                - /url: /guide/furniture-sofas-online-shopping-guide.html
+              - link [ref=e786] [cursor=pointer]:
+                - /url: /guide/furniture-beds-online-shopping-guide.html
+              - link [ref=e793] [cursor=pointer]:
+                - /url: /guide/furniture-mattresses-online-shopping-guide.html
+              - link [ref=e800] [cursor=pointer]:
+                - /url: /guide/furniture-diningsets-online-shopping-guide.html
+              - link [ref=e807] [cursor=pointer]:
+                - /url: /guide/furniture-wardrobes-online-shopping-guide.html?type=homepage_buying_guide_block5
+          - generic [ref=e819]:
+            - heading "Follow Home Interior Trends" [level=2] [ref=e821]
+            - generic [ref=e823]:
+              - link "Biophilic Furniture 30+ Options, Starting at 19,000->" [ref=e829] [cursor=pointer]:
+                - /url: /discover/biophilic-furniture.html
+                - heading "Biophilic Furniture" [level=3] [ref=e832]:
+                  - link "Biophilic Furniture" [ref=e833]:
+                    - /url: /discover/biophilic-furniture.html
+                - link "30+ Options, Starting at 19,000->" [ref=e835]:
+                  - /url: /discover/biophilic-furniture.html
+              - link "The Fluted Collection 50+ Options, Starting at 3,499->" [ref=e841] [cursor=pointer]:
+                - /url: /discover/flute-furniture-design.html?cat_id=3&requestPlatform=web&sort_field=product_rating&sort_by=desc&sort_name=Customer%20Ratings&page=1
+                - heading "The Fluted Collection" [level=3] [ref=e844]:
+                  - link "The Fluted Collection" [ref=e845]:
+                    - /url: /discover/flute-furniture-design.html?cat_id=3&requestPlatform=web&sort_field=product_rating&sort_by=desc&sort_name=Customer%20Ratings&page=1
+                - link "50+ Options, Starting at 3,499->" [ref=e847]:
+                  - /url: /discover/flute-furniture-design.html?cat_id=3&requestPlatform=web&sort_field=product_rating&sort_by=desc&sort_name=Customer%20Ratings&page=1
+              - link "Chic Sofa Chairs 250+ Sofa Options , Starting at 6,079" [ref=e853] [cursor=pointer]:
+                - /url: /category/sofa-chairs.html?cat_id=6222&requestPlatform=web&sort_field=product_rating&sort_by=desc&sort_name=Customer%20Ratings&page=1
+                - heading "Chic Sofa Chairs" [level=3] [ref=e856]:
+                  - link "Chic Sofa Chairs" [ref=e857]:
+                    - /url: /category/sofa-chairs.html?cat_id=6222&requestPlatform=web&sort_field=product_rating&sort_by=desc&sort_name=Customer%20Ratings&page=1
+                - link "250+ Sofa Options , Starting at 6,079" [ref=e859]:
+                  - /url: /category/sofa-chairs.html?cat_id=6222&requestPlatform=web&sort_field=product_rating&sort_by=desc&sort_name=Customer%20Ratings&page=1
+          - generic [ref=e863]:
+            - link [ref=e870] [cursor=pointer]:
+              - /url: /
+            - generic [ref=e874]:
+              - generic [ref=e879]:
+                - link:
+                  - /url: /
+              - generic [ref=e884]:
+                - link:
+                  - /url: /
+          - generic [ref=e889]:
+            - link [ref=e895]
+            - link [ref=e903]
+            - link [ref=e911]
+          - generic [ref=e916]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "brand proposition"
+          - separator [ref=e918]
+        - generic [ref=e923]:
+          - heading "Buy Furniture Online at Pepperfry- India's All-in-One Furniture Solution for Your Needs" [level=1] [ref=e924]:
+            - strong [ref=e925]: Buy Furniture Online at Pepperfry- India's All-in-One Furniture Solution for Your Needs
+          - paragraph [ref=e926]: Pepperfry, a market leader in online furniture and home decor, offers a one-stop solution for all your furnishing needs. With an extensive range of high-quality, stylish, and affordable furniture, Pepperfry ensures your home reflects your unique taste and personality.
+          - paragraph [ref=e927]: As one of India’s top furniture online stores, we have something for everyone, whether you’re looking for a new sofa, a functional dining table, or a stylish wardrobe. Our user-friendly platform lets you explore different options, compare furniture prices, and find the best deals, all in one place.
+          - paragraph [ref=e928]: Shopping for furniture should be hassle-free, so we offer on-time delivery, easy returns, and reliable customer support to ensure your smooth and satisfying experience. Whether you're furnishing your entire home or simply upgrading a few pieces, you can buy furniture online from us at competitive furniture prices. Discover how easy and enjoyable it is to shop for furniture online with Pepperfry today!
+          - heading "Browse a Wide Range of Furniture for Every Room, Online at Pepperfry" [level=2] [ref=e929]:
+            - strong [ref=e930]: Browse a Wide Range of Furniture for Every Room, Online at Pepperfry
+          - paragraph [ref=e931]: At Pepperfry, every room in your home deserves furniture that reflects your style and needs. Whether you're looking to revamp your living room furniture, create a cosy bedroom retreat, or furnish your outdoor spaces, we offer various options to suit every taste and budget.
+          - heading "● Living Room Furniture" [level=3] [ref=e932]:
+            - text: ●
+            - strong [ref=e933]: Living Room Furniture
+          - paragraph [ref=e934]: Your living room is the centrepiece of your home, where family and friends gather to relax and socialise. At Pepperfry, we offer a wide selection of living room furniture that combines comfort, style, and functionality. Whether you need a sleek sofa for modern living or a cosy sectional for a more relaxed, family-oriented space, our collection has something for every style.
+          - paragraph [ref=e935]: Our online furniture store makes browsing various designs, materials, and colours easy, ensuring you find the perfect match for your living space. From coffee tables and TV units to stylish bookshelves and storage solutions, each piece is designed to elevate your living room and make it both inviting and practical.
+          - heading "● Bedroom Furniture" [level=3] [ref=e936]:
+            - text: ●
+            - strong [ref=e937]: Bedroom Furniture
+          - paragraph [ref=e938]: Your bedroom should be a peaceful haven to relax and recharge after a long day. Our range of bedroom furniture is designed to help you create a serene and stylish space that suits your needs. Whether you're looking for a spacious king-size bed, a functional queen-size bed, or a more compact single bed for smaller rooms, we have a variety of sizes and designs to choose from.
+          - paragraph [ref=e939]: In addition to beds, we offer wardrobes, nightstands, and dressers that provide both style and storage. Our furniture designs are available in various materials like wood, metal, and upholstered options, ensuring you can find pieces that match your personal taste. At Pepperfry, we make creating the bedroom of your dreams easy, combining comfort with elegant design.
+          - heading "● Dining Furniture" [level=3] [ref=e940]:
+            - text: ●
+            - strong [ref=e941]: Dining Furniture
+          - paragraph [ref=e942]: The dining room is more than just a place to eat; it’s where families gather, conversations flow, and memories are made. Our dining furniture collection includes dining tables, chairs, and storage solutions that are both functional and stylish. Whether you're furnishing a small dining nook or a large family dining room, we have options to suit every space.
+          - paragraph [ref=e943]: From elegant wooden dining tables to modern glass-top designs, our selection ensures you’ll find the perfect table for your home. Pair it with comfortable dining chairs in various materials and styles, and you have an inviting and durable set.
+          - heading "● Study Room Furniture" [level=3] [ref=e944]:
+            - text: ●
+            - strong [ref=e945]: Study Room Furniture
+          - paragraph [ref=e946]: A study room or home office requires furniture that supports productivity and organisation. Our study room furniture is designed to help you create a workspace that promotes focus and efficiency. Whether you need a compact desk for a small study nook or a larger desk with built-in storage for your office, we have a wide range of desks.
+          - paragraph [ref=e947]: In addition to desks, our ergonomic office chairs are designed to provide maximum comfort during long work hours. We also offer bookshelves and filing cabinets that help you keep your study space neat and organised, making it easier to focus on the task. With our selection, you can create a study area that’s both functional and inspiring.
+          - heading "● Kids Furniture" [level=3] [ref=e948]:
+            - text: ●
+            - strong [ref=e949]: Kids Furniture
+          - paragraph [ref=e950]: Furnishing a child’s room requires a balance of fun, function, and safety. Our kids' furniture collection offers a wide range of furniture designed with your child’s needs in mind. Whether you need a bunk bed for shared rooms, a single bed for a growing child, or a study table that encourages learning and creativity, we have it all. Our kids' furniture is available in vibrant colours and fun designs to make their room joyful and comfortable.
+          - paragraph [ref=e951]: In addition to beds and tables, we offer storage solutions such as toy chests, bookshelves, and wardrobes that help keep things organised while adding charm to the room. At Pepperfry, we make sure that every piece is crafted with care to ensure both safety and durability.
+          - heading "● Office Furniture" [level=3] [ref=e952]:
+            - text: ●
+            - strong [ref=e953]: Office Furniture
+          - paragraph [ref=e954]: The right office furniture is essential for those working from home or setting up a professional office space. Our collection includes desks, chairs, storage units, and more, all designed to create a productive and comfortable workspace. Whether you need a simple writing desk, a large executive desk with ample storage, or an ergonomic chair for long hours of sitting, our furniture designs provide solutions for every need.
+          - paragraph [ref=e955]: We also offer filing cabinets, bookshelves, and other storage options that help keep your office organised and efficient. With our range of office furniture, you can create a workspace that supports your productivity and enhances your professional environment.
+          - heading "● Outdoor Furniture" [level=3] [ref=e956]:
+            - text: ●
+            - strong [ref=e957]: Outdoor Furniture
+          - paragraph [ref=e958]: Outdoor spaces are meant to be enjoyed, and the right furniture can make a huge difference in how you use these areas. Whether you have a spacious garden, a small balcony, or a cosy patio, our outdoor furniture collection is designed to help you make the most of your outdoor space. We offer everything from garden chairs and tables to lounge sets and bar furniture, all crafted from weather-resistant materials that stand up to the elements.
+          - paragraph [ref=e959]: Our furniture online store makes it easy to find pieces that match your style, from contemporary metal designs to classic wooden options. Whether you’re looking to create a relaxing lounge area, a dining space for outdoor meals, or a cosy nook for reading, Pepperfry has the perfect outdoor furniture to suit your needs.
+          - heading "● Bar Furniture" [level=3] [ref=e960]:
+            - text: ●
+            - strong [ref=e961]: Bar Furniture
+          - paragraph [ref=e962]: For those who love to entertain, our bar furniture collection provides everything you need to create a stylish home bar or add a bar area to your living room or kitchen. We offer a variety of bar cabinets, shelves, and storage units designed to keep your drinks and glassware organised.
+          - paragraph [ref=e963]: Our bar stools come in different heights and materials, ensuring they’re the perfect fit for your bar or counter area. Whether you want a chic, modern bar set or a more rustic design, we have pieces that will complement your space and make hosting guests a breeze. With our wide selection of bar furniture, you can create an inviting atmosphere that’s perfect for socialising and relaxing.
+          - heading "Explore the Variety of Furniture Materials Available at Pepperfry" [level=2] [ref=e964]:
+            - strong [ref=e965]: Explore the Variety of Furniture Materials Available at Pepperfry
+          - paragraph [ref=e966]: Here’s an overview of our different furniture materials, helping you make an informed choice when shopping for your home.
+          - heading "● Sheesham Wood Furniture" [level=3] [ref=e967]:
+            - strong [ref=e968]: ● Sheesham Wood Furniture
+          - paragraph [ref=e969]: Sheesham wood furniture is a popular choice for those who love the timeless beauty of natural wood. Known for its strength and rich grain patterns, Sheesham wood is durable and can last for years with proper care. Its warm, reddish-brown hues give any room a classic, elegant look. It’s perfect for those who appreciate craftsmanship and the beauty of traditional wooden furniture.
+          - heading "● Mango Wood Furniture" [level=3] [ref=e970]:
+            - strong [ref=e971]: ● Mango Wood Furniture
+          - paragraph [ref=e972]: Mango wood furniture is an excellent choice if you’re looking for a sustainable and eco-friendly option. Mango wood is a fast-growing hardwood that is both strong and lightweight, making it ideal for creating durable furniture pieces. This type of wood is known for its distinct grain and unique textures, with shades ranging from light yellow to dark brown. Whether you're interested in a rustic coffee table, stylish bookcases, or a wooden bed frame, mango wood furniture adds warmth and character to your home.
+          - heading "● Teak Wood Furniture" [level=3] [ref=e973]:
+            - strong [ref=e974]: ● Teak Wood Furniture
+          - paragraph [ref=e975]: Teak wood furniture is synonymous with luxury and longevity. Known for its natural oils and moisture resistance, teak wood is incredibly durable, making it ideal for indoor and outdoor furniture. Its rich golden-brown colour and smooth texture give it a timeless appeal. Whether you’re looking for a statement piece like a dining table or outdoor seating for your garden, teak wood furniture offers both beauty and function.
+          - heading "● Engineered Wood Furniture" [level=3] [ref=e976]:
+            - strong [ref=e977]: ● Engineered Wood Furniture
+          - paragraph [ref=e978]: Engineered wood furniture is an excellent choice for those seeking a more affordable yet durable alternative to solid wood. Engineered wood is made by binding together wood fibres, veneers, or particles, creating a material that is strong and resistant to warping. It’s often used for furniture like bookshelves, desks, and cabinets, providing a smooth finish and a wide range of design options. Engineered wood furniture is also eco-friendly, as it uses recycled materials in its production.
+          - heading "● Metal Furniture" [level=3] [ref=e979]:
+            - strong [ref=e980]: ● Metal Furniture
+          - paragraph [ref=e981]: Metal furniture is an ideal choice for a modern and industrial look. From sleek metal bed frames to stylish metal desks and chairs, metal furniture adds a contemporary edge to any room. It’s incredibly durable, lightweight, and easy to maintain, making it perfect for those who want functional and stylish furniture. Metal furniture is available in various finishes, including matte, glossy, or distressed, giving you plenty of options to match your home décor.
+          - heading "● Other Furniture Materials" [level=3] [ref=e982]:
+            - strong [ref=e983]: ● Other Furniture Materials
+          - paragraph [ref=e984]: Pepperfry also offers furniture made of unique materials such as fabric blends, wicker, rattan, and more, catering to diverse design preferences and needs. Premium leather options bring a luxurious and durable finish, ideal for sofas, chairs, and recliners.
+          - heading "Discover a Range of Products at Pepperfry" [level=2] [ref=e985]:
+            - strong [ref=e986]: Discover a Range of Products at Pepperfry
+          - paragraph [ref=e987]: "Our curated range of products spans across different categories, making it easy to find exactly what you’re looking for. Here’s an overview of the wide range of products you can discover at Pepperfry:"
+          - heading "● Furniture" [level=3] [ref=e988]:
+            - strong [ref=e989]: ● Furniture
+          - paragraph [ref=e990]: When it comes to furniture, we offer an extensive selection that suits every room in your home. From living room furniture like sofas and coffee tables to bedroom furniture like beds, wardrobes, and nightstands, we have everything to make your space more comfortable and inviting.
+          - paragraph [ref=e991]: Our collection also includes home furniture for your dining room, study, and even outdoor areas. Whether you're furnishing a small apartment or a large home, our best online furniture collection offers options in various designs, materials, and price ranges to suit every style.
+          - heading "● Furnishings" [level=3] [ref=e992]:
+            - strong [ref=e993]: ● Furnishings
+          - paragraph [ref=e994]: Adding the right furnishings can instantly elevate the look and feel of your home. At Pepperfry, we offer various furnishings, including curtains, rugs, cushions, throws, and more. These finishing touches enhance your home’s aesthetic, making it cosier and more personalised. Whether you're looking for bold and vibrant patterns or subtle and neutral tones, our furnishings collection has something to suit every room.
+          - heading "● Lamps and Lighting" [level=3] [ref=e995]:
+            - strong [ref=e996]: ● Lamps and Lighting
+          - paragraph [ref=e997]: Every home is complete with the right lighting to create ambience and brighten up your space. Our collection of lamps and lighting includes a variety of styles, from designer lights to more functional lighting options. Whether you need a statement chandelier to add drama to your dining room or a sleek table lamp for your study, we have it all.
+          - paragraph [ref=e998]: Lighting is essential to set the mood in any room, and with our wide range of lamps and lighting, you can choose the perfect pieces to complement your décor. Explore everything from modern pendant lights to vintage-inspired floor lamps, and create the perfect lighting scheme for your home.
+          - heading "● Mattresses" [level=3] [ref=e999]:
+            - strong [ref=e1000]: ● Mattresses
+          - paragraph [ref=e1001]: A good night’s sleep begins with the right mattress. At Pepperfry, we offer a variety of mattresses designed to provide the perfect balance of comfort and support. Whether you prefer memory foam, spring, or hybrid mattresses, we have options to suit every sleeping style. Choosing the right mattress is essential for your well-being, and we’ve made it easier to find a mattress that meets your needs. Our mattresses come in various sizes, including single, double, queen, and king, so that you can find the perfect fit for your bed. With our carefully curated selection, you can ensure that your sleep environment is as comfortable as possible.
+          - heading "● Kitchen and Dining" [level=3] [ref=e1002]:
+            - strong [ref=e1003]: ● Kitchen and Dining
+          - paragraph [ref=e1004]: The kitchen and dining areas are the heart of any home, where meals are prepared and shared, and memories are made. At Pepperfry, we offer a wide range of kitchen and dining furniture and accessories to help you create a functional and stylish space.
+          - paragraph [ref=e1005]: From dining tables and chairs to kitchen storage solutions like shelves and cabinets, our collection is designed to make your cooking and dining experience more enjoyable. We also offer a selection of bar stools, sideboards, and dining sets perfect for hosting guests or family meals. Our kitchen and dining collection ensures you can create a beautiful and practical space to suit your lifestyle.
+          - heading "● Luxury Furniture" [level=3] [ref=e1006]:
+            - strong [ref=e1007]: ● Luxury Furniture
+          - paragraph [ref=e1008]: If you want to add a touch of elegance and sophistication to your home, our luxury furniture collection will surely impress. Our luxury furniture range includes premium materials and exquisite craftsmanship, from statement sofas and beds to designer dining tables and accent chairs.
+          - paragraph [ref=e1009]: Whether you’re redecorating your living room or updating your bedroom, luxury furniture can transform your space into a refined and opulent haven. These pieces are perfect for those who appreciate high-end design and quality, making them a long-lasting investment for your home.
+          - heading "● Modular Kitchen Designs" [level=3] [ref=e1010]:
+            - strong [ref=e1011]: ● Modular Kitchen Designs
+          - paragraph [ref=e1012]: In modern homes, modular kitchen designs offer functionality and aesthetic appeal. Our modular kitchen collection includes a wide range of layouts and designs, ensuring you can find the perfect fit for your space. Whether designing a small kitchen or renovating a large one, modular kitchen units allow you to maximise your space while keeping everything organised.
+          - paragraph [ref=e1013]: From cabinets and countertops to sinks and drawers, our modular kitchen designs are customisable to meet your needs. With options for every budget, you can create a practical and stylish kitchen.
+          - heading "Tips for Caring and Cleaning Your Furniture to Ensure Long-Lasting Durability" [level=2] [ref=e1014]:
+            - strong [ref=e1015]: Tips for Caring and Cleaning Your Furniture to Ensure Long-Lasting Durability
+          - paragraph [ref=e1016]: Taking proper care of your furniture is essential to ensure its longevity and maintain its beauty over time. Regular cleaning is the first step. For house furniture, dusting with a soft cloth or microfiber duster helps prevent dirt from accumulating and scratching surfaces. Vacuuming regularly for upholstered pieces like sofas and chairs will remove crumbs and debris from crevices.
+          - paragraph [ref=e1017]: When it comes to how to clean furniture, always consider the material. Wooden furniture should be wiped with a damp cloth, mild soap, or a dedicated wood cleaner. Avoid harsh chemicals, as they can damage the finish. Use a soft cloth and a leather cleaner or conditioner for leather furniture to keep it supple and prevent cracking. Depending on the fabric, Upholstered furniture may require spot cleaning with a fabric-safe cleaner or mild detergent.
+          - paragraph [ref=e1018]: Protect your furniture, keep it away from direct sunlight to prevent fading, and maintain a stable temperature and humidity level in your home. Also, periodically check for wear, like loose screws or joints, especially on frequently used pieces. With these simple steps, you can keep your furniture looking fresh and ensure its durability for years to come.
+          - heading "Pepperfry Products" [level=3] [ref=e1019]
+          - table [ref=e1020]:
+            - rowgroup [ref=e1021]:
+              - row "Product List Pricing" [ref=e1022]:
+                - cell "Product List" [ref=e1023]:
+                  - strong [ref=e1025]: Product List
+                - cell "Pricing" [ref=e1026]:
+                  - strong [ref=e1028]: Pricing
+              - row "Sofa starting from 7,200" [ref=e1029]:
+                - cell "Sofa" [ref=e1030]:
+                  - link "Sofa" [ref=e1032] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/sofas.html?cat_id=4157&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-sofas&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 7,200" [ref=e1033]:
+                  - generic [ref=e1034]: starting from 7,200
+              - row "Study Table starting from 1,000" [ref=e1035]:
+                - cell "Study Table" [ref=e1036]:
+                  - link "Study Table" [ref=e1038] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/study-tables.html?cat_id=1916&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-studytables&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 1,000" [ref=e1039]:
+                  - generic [ref=e1040]: starting from 1,000
+              - row "Beds starting from 7,500" [ref=e1041]:
+                - cell "Beds" [ref=e1042]:
+                  - link "Beds" [ref=e1044] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/beds.html?cat_id=21&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-beds&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 7,500" [ref=e1045]:
+                  - generic [ref=e1046]: starting from 7,500
+              - row "Recliners starting from 14,000" [ref=e1047]:
+                - cell "Recliners" [ref=e1048]:
+                  - link "Recliners" [ref=e1050] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/recliners.html?cat_id=315&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-recliners&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 14,000" [ref=e1051]:
+                  - generic [ref=e1052]: starting from 14,000
+              - row "Dressing Tables starting from 5,500" [ref=e1053]:
+                - cell "Dressing Tables" [ref=e1054]:
+                  - link "Dressing Tables" [ref=e1056] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/dressing-tables.html?cat_id=1889&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-dressingtables&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 5,500" [ref=e1057]:
+                  - generic [ref=e1058]: starting from 5,500
+              - row "Office furniture starting from 2,800" [ref=e1059]:
+                - cell "Office furniture" [ref=e1060]:
+                  - link "Office furniture" [ref=e1062] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/office-furniture.html?cat_id=6804&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-officefurniture&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 2,800" [ref=e1063]:
+                  - generic [ref=e1064]: starting from 2,800
+              - row "Chairs starting from 1,600" [ref=e1065]:
+                - cell "Chairs" [ref=e1066]:
+                  - link "Chairs" [ref=e1068] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/chairs.html?cat_id=25&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-chairs&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 1,600" [ref=e1069]:
+                  - generic [ref=e1070]: starting from 1,600
+              - row "Wardrobes starting from 7,000" [ref=e1071]:
+                - cell "Wardrobes" [ref=e1072]:
+                  - link "Wardrobes" [ref=e1074] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/wardrobes.html?cat_id=40&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-wardrobes&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 7,000" [ref=e1075]:
+                  - generic [ref=e1076]: starting from 7,000
+              - row "Centre table starting from 1,300" [ref=e1077]:
+                - cell "Centre table" [ref=e1078]:
+                  - link "Centre table" [ref=e1080] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/centre-tables.html?cat_id=6746&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-centretables&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 1,300" [ref=e1081]:
+                  - generic [ref=e1082]: starting from 1,300
+              - row "Dining set starting from 12,000" [ref=e1083]:
+                - cell "Dining set" [ref=e1084]:
+                  - link "Dining set" [ref=e1086] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/category/dining-sets.html?cat_id=27&requestPlatform=web&sort_field=price&sort_by=asc&type=hover-furniture-diningsets&sort_name=Lowest%20Priced%20First&page=1
+                - cell "starting from 12,000" [ref=e1087]:
+                  - generic [ref=e1088]: starting from 12,000
+          - paragraph [ref=e1089]
+          - paragraph [ref=e1090]: Things to Consider Before Buying Furniture Online
+          - paragraph [ref=e1091]: Here are some key things to keep in mind before you decide to buy furniture online.
+          - heading "● Materials" [level=3] [ref=e1092]:
+            - text: ●
+            - strong [ref=e1093]: Materials
+          - paragraph [ref=e1094]: The furniture materials play a crucial role in both the durability and appearance of your furniture. Whether you’re considering wood, metal, or fabric, each material has its own advantages and care requirements. For example, wooden furniture offers timeless appeal but requires regular maintenance, while metal furniture is often more durable and low-maintenance. Make sure the material fits your needs and lifestyle.
+          - heading "● Size" [level=3] [ref=e1095]:
+            - text: ●
+            - strong [ref=e1096]: Size
+          - paragraph [ref=e1097]: Furniture size is crucial, especially when shopping for home furniture online. Always measure the space where you plan to place the furniture before purchasing. Take note of the dimensions provided online to ensure that the piece fits comfortably in your room without overcrowding it. Oversized furniture in a small room can make it feel cramped, while undersized furniture can look out of place in a large area.
+          - heading "● Design" [level=3] [ref=e1098]:
+            - text: ●
+            - strong [ref=e1099]: Design
+          - paragraph [ref=e1100]: Another important factor is the furniture design. Do you prefer modern, minimalist styles, or are you drawn to more traditional or vintage pieces? Make sure the design complements your existing home décor and meets your practical needs. Whether it's a sleek sofa, a rustic dining table, or a storage unit, the design should align with your style and functionality preferences.
+          - heading "● Colour" [level=3] [ref=e1101]:
+            - text: ●
+            - strong [ref=e1102]: Colour
+          - paragraph [ref=e1103]: The furniture colour you choose can dramatically affect the overall ambience of your room. Lighter tones can create a sense of space, while darker shades offer a more sophisticated and cosy feel. Consider your room’s colour scheme and choose furniture that blends well with your walls, flooring, and other décor items.
+          - heading "● Price" [level=3] [ref=e1104]:
+            - text: ●
+            - strong [ref=e1105]: Price
+          - paragraph [ref=e1106]: Furniture prices vary greatly depending on the material, design, and brand. Set a realistic budget before shopping, and compare options within your price range. While it’s tempting to go for cheaper alternatives, investing in quality pieces can save you money in the long run as they tend to last longer.
+          - heading "● Comfort" [level=3] [ref=e1107]:
+            - text: ●
+            - strong [ref=e1108]: Comfort
+          - paragraph [ref=e1109]: Comfort is a key factor to consider when buying furniture online, as it directly affects your daily living experience. Look for furniture that offers ergonomic support, especially for items like sofas, chairs, and beds. Check product descriptions for cushioning materials, seat depth, and backrest design to ensure they meet your comfort requirements.
+          - heading "● Return Policy" [level=3] [ref=e1110]:
+            - strong [ref=e1111]: ● Return Policy
+          - paragraph [ref=e1112]: Understanding the return and exchange policy is crucial when purchasing furniture online. Ensure the website has a flexible policy if the product is damaged, doesn't match the description, or doesn't fit your space. A hassle-free return process can save you from potential disappointments.
+          - heading "● Sustainability" [level=3] [ref=e1113]:
+            - strong [ref=e1114]: ● Sustainability
+          - paragraph [ref=e1115]: If you value eco-friendly practices, consider furniture made from sustainable materials or brands committed to ethical production. Sustainable choices benefit the environment and add a unique touch to your home.
+          - heading "● Reviews" [level=3] [ref=e1116]:
+            - strong [ref=e1117]: ● Reviews
+          - paragraph [ref=e1118]: Before finalising a purchase, check customer reviews. Reviews can give you valuable insights into the furniture's quality, comfort, and durability. Pay attention to both positive and negative feedback, as this can help you make a more informed decision.
+          - heading "● Warranty" [level=3] [ref=e1119]:
+            - text: ●
+            - strong [ref=e1120]: Warranty
+          - paragraph [ref=e1121]: It’s always a good idea to look for furniture with a warranty. A good warranty protects your investment if the product has manufacturing defects or damage. Knowing that you're covered if something goes wrong offers peace of mind.
+          - heading "● Payment" [level=3] [ref=e1122]:
+            - text: ●
+            - strong [ref=e1123]: Payment
+          - paragraph [ref=e1124]: When buying furniture online, make sure the website offers secure and convenient payment options. Look for payment methods that suit you, such as credit cards, digital wallets, or EMI options. Always check for any hidden charges, delivery fees, or additional costs.
+          - paragraph [ref=e1125]: By considering these factors when shopping for home furniture online, you can make a more informed decision and select the perfect pieces for your home.
+          - heading "Why Pepperfry is Your Best Choice for Online Furniture Shopping?" [level=2] [ref=e1126]:
+            - strong [ref=e1127]: Why Pepperfry is Your Best Choice for Online Furniture Shopping?
+          - paragraph [ref=e1128]: Whether you're looking for sleek, modern pieces or classic, timeless designs, we have something to suit every taste and budget. Our carefully curated collection features various furniture designs, from living room essentials like sofas and coffee tables to functional bedroom pieces, dining tables, and even outdoor furniture. Whatever your style, you'll find high-quality options to enhance your space.
+          - paragraph [ref=e1129]: As a leading online furniture store, we understand the importance of convenience and customer satisfaction. Shopping with us is hassle-free, with detailed product descriptions, high-resolution images, and easy-to-navigate categories that help you make informed decisions. You can also explore various home decorative items to complement your furniture and complete the look of your home. Plus, with our secure payment options and fast delivery services, we ensure a seamless shopping experience from start to finish.
+          - paragraph [ref=e1130]: Our commitment to quality and design makes us a trusted name in the online furniture world. With Pepperfry, you can rest assured that you're investing in durable, stylish, and well-crafted pieces that will stand the test of time. So, whether you're revamping your home or looking for that perfect accent piece, we’re here to make your online furniture shopping experience easy and enjoyable. Pepperfry is the best Furniture App in India. Committed to help you find the best furniture, be it online or offline
+          - heading "Why Pepperfry is the Market Leader When it Comes to Furniture?" [level=2] [ref=e1131]:
+            - strong [ref=e1132]: Why Pepperfry is the Market Leader When it Comes to Furniture?
+          - paragraph [ref=e1133]: When it comes to online furniture shopping, having access to a wide range of options is essential. A good platform provides furniture for every room, ensuring a convenient and comprehensive shopping experience for all your home furnishing needs. We also offer various styles to suit different tastes and budgets. Reliable customer support, secure payment methods, and hassle-free returns further enhance the overall experience, making the process smooth and stress-free.
+          - heading "Discover High-Quality Furniture at the Best Prices at Pepperfry" [level=2] [ref=e1134]:
+            - strong [ref=e1135]: Discover High-Quality Furniture at the Best Prices at Pepperfry
+          - paragraph [ref=e1136]: Whether you’re furnishing a new home or renewing your space, you can trust us to provide quality furniture at the best furniture price.
+          - heading "● Durability and Quality" [level=3] [ref=e1137]:
+            - text: ●
+            - strong [ref=e1138]: Durability and Quality
+          - paragraph [ref=e1139]: We understand that buying furniture is an investment, and we’re committed to offering quality furniture that lasts for years. Our collection is carefully crafted from premium materials to ensure strength and longevity. Whether it’s a sturdy wooden bed, a stylish sofa, or a sleek dining set, our pieces are designed to handle daily wear and tear without compromising on aesthetics. Our furniture combines durability, quality, and value for money, crafted from premium materials to ensure longevity and timeless appeal.
+          - paragraph [ref=e1140]: Our furniture showcases exceptional craftsmanship, offering lasting functionality and reducing the need for replacements. Each piece represents excellent value for money, combining timeless design with durability. Invest in furniture that’s built to last, ensuring a smart, long-term purchase.
+          - heading "● Cost-Effective and Long-Lasting Investment" [level=3] [ref=e1141]:
+            - text: ●
+            - strong [ref=e1142]: Cost-Effective and Long-Lasting Investment
+          - paragraph [ref=e1143]: At Pepperfry, we make it easy to find affordable furniture that doesn’t compromise on quality. Our goal is to offer the best furniture price without cutting corners on craftsmanship. From budget-friendly essentials to luxurious statement pieces, we have options for every budget. With furniture low prices and frequent discounts, you can enjoy incredible value while investing in high-quality furniture for your home. Affordable doesn’t mean sacrificing style—our range of designs ensures you can find pieces that look great and fit within your price range.
+          - heading "● Comfort and Style" [level=3] [ref=e1144]:
+            - text: ●
+            - strong [ref=e1145]: Comfort and Style
+          - paragraph [ref=e1146]: Furniture should do more than fill a space—it should reflect your style and provide comfort. Our quality furniture collection includes various designs to suit every taste, from contemporary to classic. Whether you’re searching for a cosy armchair, a functional coffee table, or an elegant dining set, we’ve got you covered. With Pepperfry, you don’t just get furniture online; you get pieces that blend beauty and function seamlessly. Plus, with our focus on providing affordable furniture, you can create a stylish and comfortable home without exceeding your budget.
+          - heading "Shop Conveniently Online or Visit Our Store for the Best Furniture at Pepperfry" [level=2] [ref=e1147]
+          - paragraph [ref=e1148]: At Pepperfry, we make it easy for you to buy furniture that suits your lifestyle and preferences. Whether you prefer the convenience of shopping online or want to explore our products in person, we’ve got you covered. Our online furniture store is a one-stop destination for all your furnishing needs, offering an extensive range of furniture for every room in your home.
+          - paragraph [ref=e1149]: With just a few clicks, you can browse our vast collection, compare designs, and discover the perfect pieces for your home. As a leading platform for furniture in India, we pride ourselves on offering high-quality furniture that combines style, durability, and affordability.
+          - paragraph [ref=e1150]: For those who prefer a hands-on experience, visit one of our Pepperfry Studios to explore our curated selection of furniture. In Mumbai, you can visit our Pepperfry Mumbai store located in Juhu (Ground Floor, Square 1 Bldg, Gulmohar Road, JVPD, Near Juhu Circle) or Bandra East (Shop No. 3, Kalpataru Sparkle, Kala Nagar). If you’re in Bangalore, drop by our Pepperfry Bangalore store to view our furniture collection up close. We also have stores in other metro cities across India. At these locations, you can consult with our knowledgeable staff, receive personalised design advice, and find the perfect pieces to elevate your space.
+          - paragraph [ref=e1151]: Our furniture website and stores work seamlessly to offer a flexible shopping experience. You can begin your search online at our online furniture store to get inspired, then visit a Pepperfry store near me to finalise your decision—or vice versa! We’re here to make your journey to buy furniture simple, enjoyable, and stress-free. At Pepperfry, you’ll find the perfect blend of convenience, quality, and service, making us the trusted name for furniture in India. Whether online or in-store, we’re committed to helping you find furniture that transforms your house into a home.
+    - contentinfo [ref=e1156]:
+      - generic [ref=e1158]:
+        - generic [ref=e1159]:
+          - generic [ref=e1160]:
+            - generic [ref=e1161]:
+              - paragraph [ref=e1162]: Corporate
+              - list [ref=e1163]:
+                - listitem [ref=e1164] [cursor=pointer]:
+                  - generic [ref=e1165]: About Us
+                - listitem [ref=e1166] [cursor=pointer]:
+                  - generic [ref=e1167]: Corporate Governance
+                - listitem [ref=e1168] [cursor=pointer]:
+                  - generic [ref=e1169]: Pepperfry in the News
+                - listitem [ref=e1170] [cursor=pointer]:
+                  - generic [ref=e1171]: Careers
+            - generic [ref=e1172]:
+              - paragraph [ref=e1173]: Useful Links
+              - list [ref=e1174]:
+                - listitem [ref=e1175] [cursor=pointer]:
+                  - generic [ref=e1176]: Explore Gift Cards
+                - listitem [ref=e1177] [cursor=pointer]:
+                  - generic [ref=e1178]: Buy in Bulk
+                - listitem [ref=e1179] [cursor=pointer]:
+                  - generic [ref=e1180]: Discover Our Brands
+                - listitem [ref=e1181] [cursor=pointer]:
+                  - generic [ref=e1182]: Check Out Bonhomie, Our Blog
+                - listitem [ref=e1183] [cursor=pointer]:
+                  - generic [ref=e1184]: Find a Store
+                - listitem [ref=e1185] [cursor=pointer]:
+                  - generic [ref=e1186]: Track Your Order
+            - generic [ref=e1187]:
+              - paragraph [ref=e1188]: Partner With Us
+              - list [ref=e1189]:
+                - listitem [ref=e1190] [cursor=pointer]:
+                  - generic [ref=e1191]: Sell on Pepperfry
+                - listitem [ref=e1192] [cursor=pointer]:
+                  - generic [ref=e1193]: Become a Franchisee
+                - listitem [ref=e1194] [cursor=pointer]:
+                  - generic [ref=e1195]: Become Our Channel Partner
+                - listitem [ref=e1196] [cursor=pointer]:
+                  - generic [ref=e1197]: Become Our Pep Homie
+                - listitem [ref=e1198] [cursor=pointer]:
+                  - generic [ref=e1199]: Our Marketplace Policies
+                - listitem [ref=e1200] [cursor=pointer]:
+                  - generic [ref=e1201]: Merchant Dashboard Login
+            - generic [ref=e1202]:
+              - paragraph [ref=e1203]: Need Help?
+              - list [ref=e1204]:
+                - listitem [ref=e1205] [cursor=pointer]:
+                  - generic [ref=e1206]: FAQs
+                - listitem [ref=e1207] [cursor=pointer]:
+                  - generic [ref=e1208]: Policies
+                - listitem [ref=e1209] [cursor=pointer]:
+                  - generic [ref=e1210]: Contact Us
+            - generic [ref=e1211]:
+              - paragraph [ref=e1212]: Shop Built Safe Products
+              - list [ref=e1213]:
+                - listitem [ref=e1214]:
+                  - generic [ref=e1215]: Kids & Pet Friendly
+                - listitem [ref=e1216]:
+                  - generic [ref=e1217]: Certified Non-Toxic
+                - listitem [ref=e1218]:
+                  - generic [ref=e1219]: Made with Vegetarian Glue
+                - listitem [ref=e1220]:
+                  - generic [ref=e1221]: Scratch Resistant Finish
+              - paragraph [ref=e1222]: Download our App
+              - generic [ref=e1223]:
+                - link "apple-store-icon" [ref=e1224] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/in/app/pepperfry/id972047429?mt=8
+                  - img "apple-store-icon" [ref=e1227]
+                - link "google-store-icon" [ref=e1228] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.app.pepperfry
+                  - img "google-store-icon" [ref=e1231]
+          - generic [ref=e1232]:
+            - generic [ref=e1233]:
+              - paragraph [ref=e1234]: Popular Categories
+              - list:
+                - listitem [ref=e1235] [cursor=pointer]:
+                  - link "Sofas," [ref=e1236]:
+                    - /url: https://www.pepperfry.com/category/sofas.html?type=hp-footer-link-categories-1
+                - listitem [ref=e1237] [cursor=pointer]:
+                  - link "Sectional Sofas," [ref=e1238]:
+                    - /url: https://www.pepperfry.com/category/sectional-sofas.html?type=hp-footer-link-categories-2
+                - listitem [ref=e1239] [cursor=pointer]:
+                  - link "Sofa Sets," [ref=e1240]:
+                    - /url: https://www.pepperfry.com/category/sofa-sets.html?type=hp-footer-link-categories-3
+                - listitem [ref=e1241] [cursor=pointer]:
+                  - link "Queen Size Beds," [ref=e1242]:
+                    - /url: https://www.pepperfry.com/category/queen-size-beds.html?type=hp-footer-link-categories-4
+                - listitem [ref=e1243] [cursor=pointer]:
+                  - link "King Size Beds," [ref=e1244]:
+                    - /url: https://www.pepperfry.com/category/king-size-beds.html?type=hp-footer-link-categories-5
+                - listitem [ref=e1245] [cursor=pointer]:
+                  - link "Coffee Tables," [ref=e1246]:
+                    - /url: https://www.pepperfry.com/category/coffee-tables.html?type=hp-footer-link-categories-6
+                - listitem [ref=e1247] [cursor=pointer]:
+                  - link "Dining Sets," [ref=e1248]:
+                    - /url: https://www.pepperfry.com/category/dining-sets.html?type=hp-footer-link-categories-7
+                - listitem [ref=e1249] [cursor=pointer]:
+                  - link "Recliners," [ref=e1250]:
+                    - /url: https://www.pepperfry.com/category/recliners.html?type=hp-footer-link-categories-8
+                - listitem [ref=e1251] [cursor=pointer]:
+                  - link "Sofa Cum Beds," [ref=e1252]:
+                    - /url: https://www.pepperfry.com/category/sofa-cum-beds.html?type=hp-footer-link-categories-9
+                - listitem [ref=e1253] [cursor=pointer]:
+                  - link "Queen Size Mattresses," [ref=e1254]:
+                    - /url: https://www.pepperfry.com/category/queen-size-mattresses.html?type=hp-footer-link-categories-10
+                - listitem [ref=e1255] [cursor=pointer]:
+                  - link "Cabinets & Sideboards," [ref=e1256]:
+                    - /url: https://www.pepperfry.com/category/cabinets-and-sideboards.html?type=hp-footer-link-categories-11
+                - listitem [ref=e1257] [cursor=pointer]:
+                  - link "Book Shelves," [ref=e1258]:
+                    - /url: https://www.pepperfry.com/category/book-shelves.html?type=hp-footer-link-categories-12
+                - listitem [ref=e1259] [cursor=pointer]:
+                  - link "TV & Media Units," [ref=e1260]:
+                    - /url: https://www.pepperfry.com/category/tv-and-media-units.html?type=hp-footer-link-categories-13
+                - listitem [ref=e1261] [cursor=pointer]:
+                  - link "Wardrobes," [ref=e1262]:
+                    - /url: https://www.pepperfry.com/category/wardrobes.html?type=hp-footer-link-categories-14
+                - listitem [ref=e1263] [cursor=pointer]:
+                  - link "Foldable Mattresses," [ref=e1264]:
+                    - /url: https://www.pepperfry.com/category/foldable-mattresses.html?type=hp-footer-link-categories-15
+                - listitem [ref=e1265] [cursor=pointer]:
+                  - link "Pillows," [ref=e1266]:
+                    - /url: https://www.pepperfry.com/category/pillows.html?type=hp-footer-link-categories-16
+                - listitem [ref=e1267] [cursor=pointer]:
+                  - link "Wall Shelves," [ref=e1268]:
+                    - /url: https://www.pepperfry.com/category/wall-shelves.html?type=hp-footer-link-categories-17
+                - listitem [ref=e1269] [cursor=pointer]:
+                  - link "Photo Frames," [ref=e1270]:
+                    - /url: https://www.pepperfry.com/category/photo-frames.html?type=hp-footer-link-categories-18
+                - listitem [ref=e1271] [cursor=pointer]:
+                  - link "Bed Sheets," [ref=e1272]:
+                    - /url: https://www.pepperfry.com/category/furnishings-bed-sheets.html?type=hp-footer-link-categories-19
+                - listitem [ref=e1273] [cursor=pointer]:
+                  - link "Table Linen," [ref=e1274]:
+                    - /url: https://www.pepperfry.com/category/dining-bar-table-linen.html?type=hp-footer-link-categories-20
+                - listitem [ref=e1275] [cursor=pointer]:
+                  - link "Study Tables," [ref=e1276]:
+                    - /url: https://www.pepperfry.com/category/study-tables.html?type=hp-footer-link-categories-21
+                - listitem [ref=e1277] [cursor=pointer]:
+                  - link "Office Furniture," [ref=e1278]:
+                    - /url: https://www.pepperfry.com/category/office-furniture.html?type=hp-footer-link-categories-22
+                - listitem [ref=e1279] [cursor=pointer]:
+                  - link "Dining Tables," [ref=e1280]:
+                    - /url: https://www.pepperfry.com/category/dining-tables.html?type=hp-footer-link-categories-23
+                - listitem [ref=e1281] [cursor=pointer]:
+                  - link "Carpets," [ref=e1282]:
+                    - /url: https://www.pepperfry.com/category/furnishings-carpet-carpets.html?type=hp-footer-link-categories-24
+                - listitem [ref=e1283] [cursor=pointer]:
+                  - link "Wall Decor" [ref=e1284]:
+                    - /url: https://www.pepperfry.com/category/wall-decor.html
+            - generic [ref=e1285]:
+              - paragraph [ref=e1286]: Popular Brands
+              - list:
+                - listitem [ref=e1287] [cursor=pointer]:
+                  - link "Mintwud," [ref=e1288]:
+                    - /url: https://www.pepperfry.com/brands/mintwud.html?type=hp-footer-link-brands-1
+                - listitem [ref=e1289] [cursor=pointer]:
+                  - link "Woodsworth," [ref=e1290]:
+                    - /url: https://www.pepperfry.com/brands/woodsworth.html?type=hp-footer-link-brands-2
+                - listitem [ref=e1291] [cursor=pointer]:
+                  - link "CasaCraft," [ref=e1292]:
+                    - /url: https://www.pepperfry.com/brands/casacraft.html?type=hp-footer-link-brands-3
+                - listitem [ref=e1293] [cursor=pointer]:
+                  - link "Amberville," [ref=e1294]:
+                    - /url: https://www.pepperfry.com/brands/amberville.html?type=hp-footer-link-brands-4
+                - listitem [ref=e1295] [cursor=pointer]:
+                  - link "Mudramark," [ref=e1296]:
+                    - /url: https://www.pepperfry.com/brands/mudramark.html?type=hp-footer-link-brands-5
+                - listitem [ref=e1297] [cursor=pointer]:
+                  - link "Bohemiana," [ref=e1298]:
+                    - /url: https://www.pepperfry.com/brands/bohemiana.html?type=hp-footer-link-brands-6
+                - listitem [ref=e1299] [cursor=pointer]:
+                  - link "Springtek," [ref=e1300]:
+                    - /url: https://www.pepperfry.com/brands/springtek.html?type=hp-footer-link-brands-10
+                - listitem [ref=e1301] [cursor=pointer]:
+                  - link "Spacewood," [ref=e1302]:
+                    - /url: https://www.pepperfry.com/brands/spacewood.html?type=hp-footer-link-brands-11
+                - listitem [ref=e1303] [cursor=pointer]:
+                  - link "A Globia Creations," [ref=e1304]:
+                    - /url: https://www.pepperfry.com/brands/a-globia-creations.html?type=hp-footer-link-brands-12
+                - listitem [ref=e1305] [cursor=pointer]:
+                  - link "Febonic," [ref=e1306]:
+                    - /url: https://www.pepperfry.com/brands/febonic.html?type=hp-footer-link-brands-13
+                - listitem [ref=e1307] [cursor=pointer]:
+                  - link "Durian," [ref=e1308]:
+                    - /url: https://www.pepperfry.com/brands/durian.html?type=hp-footer-link-brands-15
+                - listitem [ref=e1309] [cursor=pointer]:
+                  - link "Nilkamal," [ref=e1310]:
+                    - /url: https://www.pepperfry.com/brands/nilkamal.html?type=hp-footer-link-brands-19
+                - listitem [ref=e1311] [cursor=pointer]:
+                  - link "Sleepycat," [ref=e1312]:
+                    - /url: https://www.pepperfry.com/brands/sleepycat.html?type=hp-footer-link-brands-20
+                - listitem [ref=e1313] [cursor=pointer]:
+                  - link "Bluewud," [ref=e1314]:
+                    - /url: https://www.pepperfry.com/brands/bluewud.html?type=hp-footer-link-brands-22
+                - listitem [ref=e1315] [cursor=pointer]:
+                  - link "Duroflex," [ref=e1316]:
+                    - /url: https://www.pepperfry.com/brands/duroflex.html?type=hp-footer-link-brands-23
+                - listitem [ref=e1317] [cursor=pointer]:
+                  - link "Sleepyhead," [ref=e1318]:
+                    - /url: https://www.pepperfry.com/brands/sleepyhead.html?type=hp-footer-link-brands-24
+                - listitem [ref=e1319] [cursor=pointer]:
+                  - link "Green Soul," [ref=e1320]:
+                    - /url: https://www.pepperfry.com/brands/green-soul.html?type=hp-footer-link-brands-25
+                - listitem [ref=e1321] [cursor=pointer]:
+                  - link "Orange Tree," [ref=e1322]:
+                    - /url: https://www.pepperfry.com/brands/orange-tree.html?type=hp-footer-link-brands-26
+                - listitem [ref=e1323] [cursor=pointer]:
+                  - link "Clouddio" [ref=e1324]:
+                    - /url: https://www.pepperfry.com/brands/clouddio.html
+            - generic [ref=e1325]:
+              - paragraph [ref=e1326]: Popular cities
+              - list:
+                - listitem [ref=e1327]:
+                  - link "Bengaluru," [ref=e1328] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-bengaluru.html
+                - listitem [ref=e1329]:
+                  - link "Mumbai," [ref=e1330] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-mumbai.html
+                - listitem [ref=e1331]:
+                  - link "Navi Mumbai," [ref=e1332] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-navi-mumbai.html
+                - listitem [ref=e1333]:
+                  - link "Delhi," [ref=e1334] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-delhi-ncr.html
+                - listitem [ref=e1335]:
+                  - link "Hyderabad," [ref=e1336] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-hyderabad.html
+                - listitem [ref=e1337]:
+                  - link "Pune," [ref=e1338] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-pune.html
+                - listitem [ref=e1339]:
+                  - link "Chennai," [ref=e1340] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-chennai.html
+                - listitem [ref=e1341]:
+                  - link "Gurgaon," [ref=e1342] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-gurgaon.html
+                - listitem [ref=e1343]:
+                  - link "Kolkata," [ref=e1344] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-kolkata.html
+                - listitem [ref=e1345]:
+                  - link "Noida," [ref=e1346] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-noida.html
+                - listitem [ref=e1347]:
+                  - link "Goa," [ref=e1348] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/state/furniture-store-in-goa.html
+                - listitem [ref=e1349]:
+                  - link "Ghaziabad," [ref=e1350] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-ghaziabad.html
+                - listitem [ref=e1351]:
+                  - link "Faridabad," [ref=e1352] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/location/furniture-store-in-faridabad.html
+                - listitem [ref=e1353]:
+                  - link "Jaipur," [ref=e1354] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-jaipur.html
+                - listitem [ref=e1355]:
+                  - link "Lucknow," [ref=e1356] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-lucknow.html
+                - listitem [ref=e1357]:
+                  - link "Kochi," [ref=e1358] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-kochi.html
+                - listitem [ref=e1359]:
+                  - link "Visakhapatnam," [ref=e1360] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-visakhapatnam.html
+                - listitem [ref=e1361]:
+                  - link "Chandigarh," [ref=e1362] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-chandigarh.html
+                - listitem [ref=e1363]:
+                  - link "Vadodara," [ref=e1364] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-vadodara.html
+                - listitem [ref=e1365]:
+                  - link "Nagpur," [ref=e1366] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-nagpur.html
+                - listitem [ref=e1367]:
+                  - link "Thiruvananthapuram," [ref=e1368] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-trivandrum.html
+                - listitem [ref=e1369]:
+                  - link "Indore," [ref=e1370] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e1371]:
+                  - link "Mysore," [ref=e1372] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e1373]:
+                  - link "Bhopal," [ref=e1374] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/location/furniture-store-in-bhopal.html
+                - listitem [ref=e1375]:
+                  - link "Surat," [ref=e1376] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-surat.html
+                - listitem [ref=e1377]:
+                  - link "Patna," [ref=e1378] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-patna.html
+                - listitem [ref=e1379]:
+                  - link "Ludhiana," [ref=e1380] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-ludhiana.html
+                - listitem [ref=e1381]:
+                  - link "Ahmedabad," [ref=e1382] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-ahmedabad.html
+                - listitem [ref=e1383]:
+                  - link "Nashik," [ref=e1384] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-nashik.html
+                - listitem [ref=e1385]:
+                  - link "Aurangabad" [ref=e1386] [cursor=pointer]:
+                    - /url: https://www.pepperfry.com/stores/city/furniture-store-in-aurangabad.html
+        - generic [ref=e1387]:
+          - generic [ref=e1390]:
+            - paragraph [ref=e1392]: We accept
+            - generic [ref=e1393]:
+              - img "visa-card" [ref=e1397]
+              - img "master-card" [ref=e1401]
+              - img "maestro-card" [ref=e1405]
+              - img "american-express-card" [ref=e1409]
+              - img "rupay-card" [ref=e1413]
+              - img "diners-card" [ref=e1417]
+              - img "wallet" [ref=e1421]
+              - img "netbanking-icon" [ref=e1425]
+          - generic [ref=e1427]:
+            - paragraph [ref=e1428]: Like What You See? Follow us Here
+            - generic [ref=e1429]:
+              - img "Instagram-icon" [ref=e1434] [cursor=pointer]
+              - img "Facebook-icon" [ref=e1439] [cursor=pointer]
+              - img "Pintrest-icon" [ref=e1444] [cursor=pointer]
+              - img "Linkedin-icon" [ref=e1449] [cursor=pointer]
+              - img "Youtube-icon" [ref=e1454] [cursor=pointer]
+              - img "Twitter-icon" [ref=e1459] [cursor=pointer]
+        - generic [ref=e1463]:
+          - generic [ref=e1465] [cursor=pointer]: Whitehat
+          - generic [ref=e1467] [cursor=pointer]: Sitemap
+          - generic [ref=e1469] [cursor=pointer]: Terms Of Use
+          - generic [ref=e1471] [cursor=pointer]: Privacy Policy
+          - generic [ref=e1473] [cursor=pointer]: Your Data and Security
+          - generic [ref=e1475] [cursor=pointer]: Grievance Redressal
+        - paragraph [ref=e1477]: © Copyright Pepperfry Limited
+    - generic [ref=e1479] [cursor=pointer]:
+      - img "FAB Icon" [ref=e1480]
+      - generic [ref=e1481]: Buy on Phone
+  - generic [ref=e1483]:
+    - img [ref=e1485] [cursor=pointer]
+    - generic [ref=e1490]:
+      - img "authentication banner" [ref=e1493]
+      - generic [ref=e1494]:
+        - generic [ref=e1495]:
+          - generic [ref=e1496]: Sign Up Or Log In
+          - generic [ref=e1498]:
+            - textbox "Enter Mobile Number or Email Id" [ref=e1503]
+            - button "CONTINUE" [ref=e1505] [cursor=pointer]:
+              - generic [ref=e1506]: CONTINUE
+          - generic [ref=e1507]:
+            - text: By continuing, you agree to our
+            - link "Terms & Conditions" [ref=e1508] [cursor=pointer]:
+              - /url: https://www.pepperfry.com/tnc/terms-of-use.html
+        - generic [ref=e1509]:
+          - generic [ref=e1510]: Or
+          - generic [ref=e1511]: Continue with
+          - generic [ref=e1512]:
+            - generic [ref=e1515]:
+              - button "Sign in with Google. Opens in new tab" [ref=e1517] [cursor=pointer]:
+                - generic [ref=e1519]:
+                  - img [ref=e1521]
+                  - generic [ref=e1528]: Sign in with Google
+              - generic:
+                - iframe
+                - button "Sign in with Google. Opens in new tab"
+            - generic [ref=e1530] [cursor=pointer]:
+              - img "facebook icon" [ref=e1531]
+              - text: Facebook
+  - iframe [ref=e1535]:
+    - generic [ref=f6e6]:
+      - text: protected by
+      - strong [ref=f6e7]: reCAPTCHA
+```
+
+# Test source
+
+```ts
+  1 | import { test, expect } from '@playwright/test';
+  2 | 
+  3 | test('test', async ({ page }) => {
+> 4 |   await page.goto('https://www.pepperfry.com/');
+    |              ^ Error: page.goto: Test timeout of 30000ms exceeded.
+  5 |   await page.locator('.close-modal').click();
+  6 | });
+```
